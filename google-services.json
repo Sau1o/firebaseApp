@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "382458700846",
+    "project_id": "my-expo-app-firebase",
+    "storage_bucket": "my-expo-app-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382458700846:android:d7b12b0d8e9cdd3fc6abbf",
+        "android_client_info": {
+          "package_name": "com.galaxies.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382458700846-fl28r97vv1jb4harg6k6f63p299a9hac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABGsP0UiUQdRSqxTADx3truu5Zvkq-_Qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382458700846-fl28r97vv1jb4harg6k6f63p299a9hac.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "382458700846-br0l97n6kpvfquqffnionlb870skvhol.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galaxies.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
