@@ -1,18 +1,38 @@
 import React from "react";
 import { useState } from "react";
 import { Text, View, StyleSheet, KeyboardAvoidingView, TextInput, Button, ActivityIndicator } from "react-native";
+import auth from '@react-native-firebase/auth'
+import {FirebaseError} from 'firebase/app'
 
 export default function Index() {
   const[email,setEmail] = useState('');
   const[password,setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const signUp = () => {
-
+  const signUp = async () => {
+    setLoading(true)
+    try {
+      await auth().createUserWithEmailAndPassword(email,password);
+      alert('Check your emails!');
+    } catch (e:any) {
+      const err = e as FirebaseError;
+      alert('Registration failed: ' + err.message);
+    } finally{
+      setLoading(false)
+    }
   }
 
-  const signIn = () => {
-
+  const signIn = async () => {
+    setLoading(true)
+    try {
+      await auth().createUserWithEmailAndPassword(email,password);
+      alert('Check your emails!');
+    } catch (e:any) {
+      const err = e as FirebaseError;
+      alert('Registration failed: ' + err.message);
+    } finally{
+      setLoading(false)
+    }
   }
 
   return (
