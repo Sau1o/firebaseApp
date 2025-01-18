@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "firebase",
+    "slug": "firebase",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.saulocoelho.firebase"
+    },
+    "ios": {
+      "bundleIdentifier": "com.saulocoelho.firebase"
+    }
+  }
+}
